@@ -88,13 +88,13 @@ nav h1 {
     padding: 30px;
     background-color: #2b415d;
     
-    grid-template-areas: "header"
-                         "project1"
-                         "project2"
-                         "project3"
-                         "project4"
-                         "project5"
-                         "project6";
+    grid-template-areas: "header header"
+                         "project1 desc1"
+                         "project2 desc2"
+                         "project3 desc3"
+                         "project4 desc4"
+                         "project5 desc5"
+                         "project6 desc6";
 }
 
 @media screen and (min-width:1700px) {
@@ -161,6 +161,54 @@ nav h1 {
 
 #portfolio6 {
     grid-area: project6;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#desc1 {
+    grid-area: desc1;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#desc2 {
+    grid-area: desc2;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#desc3 {
+    grid-area: desc3;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#desc4 {
+    grid-area: desc4;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#desc5 {
+    grid-area: desc5;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#desc6 {
+    grid-area: desc6;
     justify-items: center;
     align-items: center;
     display: flex;
